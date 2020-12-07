@@ -1,4 +1,4 @@
-# Positive_Click_Game
+# Positive click game
 This is a sample game which wrote by Java-script,CSS and HTML.
 Please use this <a>link</a> for demo of this project.
 
