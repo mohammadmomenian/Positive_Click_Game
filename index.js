@@ -114,11 +114,11 @@ function startPop(){
         newPop.classList.remove("active");
         newPop.removeEventListener("click",hitPop);
         newPop.innerText = newPop.old;
-        if(newPop.v  >= 0){
+        if(newPop.v  > 0){
             updateScore();
             player.items--;
         }
-        if(player.items  <= 0){
+        if(player.items  == 0){
             gameOver();
             
         }
